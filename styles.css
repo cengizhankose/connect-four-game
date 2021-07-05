@@ -1,7 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  background: #000022;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
 .grid {
-  border: 1px solid;
-  height: 120px;
-  width: 140px;
+  border: 2px solid #fff;
+  height: 36vw;
+  width: 42vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,17 +26,24 @@
 }
 
 .grid div {
-  height: 20px;
-  width: 20px;
+  height: 6vw;
+  width: 6vw;
 }
 
 .player-one {
-  background: red;
-  border-radius: 10px;
+  background-image: url("https://www.pinclipart.com/picdir/big/567-5675141_iron-man-symbol-iron-man-logo-png-clipart.png");
+  background-size: 100%;
+  border-radius: 50%;
 }
 
 .player-two {
-  background: blue;
-  border-radius: 10px;
+  background-image: url("https://www.pngkit.com/png/full/26-262980_thanos.png");
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+h3 {
+  font-size: 2vw;
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
