@@ -4,7 +4,7 @@ Fast HTML/CSS/Js challenge that i made with Ania Kubów's video tutorial.
 
 ## How to play
 
-1.Every round one player puts a pin at the 7\*6 board.  
+1.Every round one player puts a pin on the 7\*6 board.  
 2.Player who connects four pins at one direction which can be horizontal vertical or even diagonal wins the game.
 
 ## What the app looks like
